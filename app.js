@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.port || 80;
+const port = process.env.port || 3000;
 
 //configuraciones - respuestas para el cliente(chrome, explore)
 app.use(express.static('public'));
